@@ -24,7 +24,7 @@ jobs:
         run: pip install flake8
 
       - name: run linter
-        run: flake8 etl/etl.py
+        run: flake8 Module3/etl/etl.py
   
   deploy:
     runs-on: ubuntu-latest
@@ -52,4 +52,4 @@ jobs:
               git pull origin main
             fi
 
-            python3 /etl/etl.py
+            python3 Module3/etl/etl.py
