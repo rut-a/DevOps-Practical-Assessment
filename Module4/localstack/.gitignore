@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+crash.log
+errored.tfstate
+
+# Lambda build artifacts
+*.zip
+
+# LocalStack runtime data
+volume/
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+
+# Sensitive keys/certs
+*.pem
+*.key
+*.crt
+
+# Ignore LocalStack temp/cache data
+localstack/volume/cache/
+localstack/volume/lib/
+localstack/volume/logs/
+localstack/volume/tmp/
