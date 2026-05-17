@@ -1,0 +1,9 @@
+[Unit]
+Description=Currency Exchange Python Script 
+After=network.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/currency 
+ExecStart=/usr/bin/python3 /home/ubuntu/currency/currency.py
