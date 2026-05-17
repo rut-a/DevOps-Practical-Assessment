@@ -41,7 +41,7 @@ def run():
 
         data = {
             "status": "success",
-            "records": 100
+            "records": 101
         }
 
         timestamp = datetime.now().strftime(
